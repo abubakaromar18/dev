@@ -6,28 +6,31 @@
     --accent-color: #C4D6B0;
     /* --alt-accent-color: #ffa552; */
 }
-*{
-    margin: 0 auto;
-    text-align: center;
-}
 
 body{
     border: 2px solid black;
-    display: block;
     background-color: #C4D6B0aa;
 
-    font-family: 'Poppins';
+    display: inline-block;
+    text-align: center;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    
+
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
 
-    max-width: 95%;
+    width: 95vw;
 
     padding: 5px;
-
 }
 
 img{
+    width: 200px;
     height: 200px;
-    border-radius: 100px;
+    border-radius: 500px;
 }
 
 h1{
@@ -44,6 +47,7 @@ hr{
 
 table{
     border: 2px solid black;
+    width: 95%;
     word-spacing: 2px;
 
     margin: 10px auto;
@@ -64,8 +68,26 @@ table{
     list-style-type: none;
 }
 
+.links ul li{
+    display: inline-block;
+}
+
 .links ul li a{
+    background-color: #72c273;
+    border-radius: 5px;
+    padding: 5px;
+
+    color: white;
     text-decoration: none;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.links ul li a:hover{
+    background-color: #202020;
+    border-radius: 5px;
+    padding: 5px;
+    color: #72c273;
 }
 
 .star{
