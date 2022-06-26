@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,22 +26,27 @@
             </ul>
             <hr>
         </div> -->
-        <div class="resume">
-            <a href="resouces/resume.pdf">Resume</a>
-            <hr>
-        </div>
     </nav>
     <div class="container">
         <section class="intro">
-            <h1>Hi name is Abubakar Omar</h1>
-            <p>This website was designed to show viewers my skills and projects. I hope you enjoy!</p>
+            <table>
+                <tr>
+                    <td>
+                        <img src="resouces/me.jpg" style="height: 150px; border-radius: 5px;"> 
+                    </td>
+                    <td>
+                        <h1>Hi name is Abubakar Omar</h1>
+                        <p>This website was designed to show viewers my skills and projects. I hope you enjoy!</p>
+                    </td>
+                </tr>
+            </table>
             <hr>
         </section>
         <section class="projects">
             <h1>My projects</h1>
             <p>This section shows all the projects I have worked on and completed</p>
 
-            <table>
+            <table cellspacing="20">
                 <tr>
                     <th scope="col">Project Name</th>
                     <th scope="col">Description</th>
@@ -69,7 +74,7 @@
         </section>
         <section class="skills">
             <h1>My Top Skills</h1>
-            <table>
+            <table cellspacing="10">
                 <tr>
                     <th scope="col">Language</th>
                     <th scope="col">Skill Level</th>
@@ -77,30 +82,41 @@
                 </tr>
                 <tr>
                     <th scope="row">C++</th>
-                    <td>&#11088; &#11088; &#11088; &#11088; &#11088;</td>
+                    <td class="star">&#11088; &#11088; &#11088; &#11088; &#11088;</td>
                     <td style="text-align: center;">5</td>
                 </tr>
                 <tr>
                     <th scope="row">WEB DEV</th>
-                    <td>&#11088; &#11088; &#11088; &#11088; &#11088;</td>
+                    <td class="star">&#11088; &#11088; &#11088; &#11088; &#11088;</td>
                     <td style="text-align: center;">3</td>
                 </tr>
                 <tr>
                     <th scope="row">JAVA</th>
-                    <td>&#11088; &#11088;  &#11088; &#11088;</td>
+                    <td class="star">&#11088; &#11088;  &#11088; &#11088;</td>
                     <td style="text-align: center;">2</td>
                 </tr>
                 <tr>
                     <th scope="row">PYTHON</th>
-                    <td>&#11088; &#11088; &#11088; </td>
+                    <td class="star">&#11088; &#11088; &#11088; </td>
                     <td style="text-align: center;">2</td>
                 </tr>
                 <tr>
                     <th scope="row">SQL</th>
-                    <td>&#11088; &#11088;</td>
+                    <td class="star">&#11088; &#11088;</td>
                     <td style="text-align: center;">1</td>
                 </tr>
             </table>
+            <hr>
+        </section>
+        <section class="links">
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li>             
+                    <div class="resume">
+                        <a href="resouces/resume.pdf">Resume</a>
+                    </div>
+                </li>
+            </ul>
         </section>
     </div>
     
