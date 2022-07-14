@@ -1,51 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap');
 
-*{
+
+body{
     margin: 0;
-    padding: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
-div{
-    width: 100vw;
-    height: calc(100vh - 100px);
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
 }
 
 .top-container{
+    background-color: #E4f9F5;
     position: relative;
-    text-align: center;
-    background-color: aqua;
-    padding-top: 100px;;
+
+    padding-top: 100px;
 }
 
-.top-container .cloud{
+.top-cloud{
     position: absolute;
-}
-
-.top-container .cloud.one{
+    right: 300px;
     top: 50px;
-    right: 650px;
-
 }
 
-.top-container .cloud.two{
-    top: 225px;
-    left: 500px;
-
-}
-
-.top-container .mountain{
+.bottom-cloud{
     position: absolute;
-    bottom: 0;
-    left: 50%;
-
-    width: 75%;
-    height: 75%;
-    transform: translateX(-50%);
+    left: 300px;
+    bottom: 300px;
 }
 
 .middle-container{
-    background-color: red;
+
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile-picture{
+    width: 25%;
+    border-radius: 50px;
+}
+
+.skills-picture{
+    background-image: url('https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_pc.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+    height: 200px;
+    border-radius: 50px;
+
+    float: left;
+    margin-right: 30px;
 }
 
 .bottom-container{
-    background-color: purple;
+
 }
+
+.pro{
+    text-decoration: underline;
+}
+
